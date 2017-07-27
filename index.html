@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>codelab demo</title>
+  <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js" async></script>
+  <script>
+    window.Polymer = {
+      dom: 'shadow',
+      lazyRegister: 'max',
+      useNativeCSSProperties: true
+    };
+  </script>
+  <link rel="stylesheet"
+        href="//fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,700">
+  <link rel="import" href="bower_components/iron-icons/iron-icons.html">
+  <link rel="import" href="bower_components/paper-button/paper-button.html">
+  <link rel="import" href="google-codelab-survey.html">
+  <link rel="import" href="google-codelab-step.html">
+  <link rel="import" href="google-codelab.html"> 
+  <style is="custom-style">
+    body {
+      font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial;
+      background: var(--google-codelab-background, --paper-grey-300);
+    }
+  </style>
+</head>
+<body>
+
+  <google-codelab title="Laboratoria!"
+                  feedback-link="https://github.com/googlecodelabs"
+                  environment="web"
+                  last-updated="2017-07-18">
+                  
+    <google-codelab-step label="Overview" duration="2">
+          <p> Hola 1  </p>
+    </google-codelab-step>
+
+    <google-codelab-step label="Getting set up" duration="3">
+      <h2>Hola 2</h2>
+      <p> contenido hola2 </p>
+    </google-codelab-step>
+
+    <google-codelab-step label="Using <google-map>" duration="12">
+      <p> hola3 </p>
+    </google-codelab-step>
+
+  </google-codelab>
+
+</body>
+</html>
