@@ -59,7 +59,7 @@ app-drawer-layout {
 }
 
 #main-toolbar {
-  background: var(--google-codelab-header-background, --paper-blue-600);
+  background: var(--google-codelab-header-background, #F7B617); /* --paper-blue-600 */
   color: #fff;
   display: flex;
   align-items: center;
@@ -82,8 +82,8 @@ paper-icon-button[icon=menu] {
 }
 
 paper-fab {
-  --paper-fab-keyboard-focus-background: var(--google-codelab-fab-background, --paper-blue-700);
-  --paper-fab-background: var(--google-codelab-fab-background, --paper-blue-700);
+  --paper-fab-keyboard-focus-background: var(--google-codelab-fab-background, #CB9513);
+  --paper-fab-background: var(--google-codelab-fab-background, #F7B617);
   flex-shrink: 0;
 }
 
@@ -139,13 +139,13 @@ paper-fab {
 }
 
 .navbutton.prevbutton[disabled] {
-  background: var(--google-codelab-fab-background);
+  background: #F8C341;
   color: white;
   transform: scale(0);
 }
 
 .navbutton.donebutton {
-  background: var(--google-green-500);
+  background: #68AD1C;
 }
         
 #toc {
@@ -213,7 +213,7 @@ paper-fab {
 .toc-item.completed i::after,
 .toc-item.iron-selected i,
 .toc-item.iron-selected i:before {
-  border-color: var(--paper-blue-500);
+  border-color: #F7B617;
 }
 
 .toc-item:first-of-type i::before,

@@ -60,6 +60,13 @@ the License.
         }
       }
 
+      @font-face { 
+        font-family: 'Monserrat';
+        src: url('fonts/Montserrat-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
       :host-context(google-codelab:not([theme="minimal"])) .instructions ::content a,
       :host-context(google-codelab:not([theme="minimal"])) .instructions ::content a:visited {
         color: var(--google-codelab-step-link-color, #0097A7);
@@ -70,6 +77,8 @@ the License.
       :host-context(google-codelab:not([theme="minimal"])) .instructions ::content h4 {
         font-weight: 400;
         margin: 0;
+        font-family: Monserrat;
+        font-style: normal;
       }
 
       :host-context(google-codelab:not([theme="minimal"])) .instructions ::content h2 {
